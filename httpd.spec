@@ -8,7 +8,7 @@ Version: 2.4.20
 Release: 1
 URL: http://httpd.apache.org/
 Vendor: Apache Software Foundation
-Source0: http://www.apache.org/dist/httpd/httpd-%{version}.tar.bz2
+Source0: http://archive.apache.org/dist/httpd/httpd-%{version}.tar.bz2
 License: Apache License, Version 2.0
 Group: System Environment/Daemons
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
