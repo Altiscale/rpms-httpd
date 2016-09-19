@@ -5,7 +5,7 @@
 Summary: Apache HTTP Server
 Name: httpd
 Version: 2.4.20
-Release: 3
+Release: 4
 URL: http://httpd.apache.org/
 Vendor: Apache Software Foundation
 Source0: http://archive.apache.org/dist/httpd/httpd-%{version}.tar.bz2
@@ -19,7 +19,7 @@ Requires: initscripts >= 8.36, /etc/mime.types
 Obsoletes: httpd-suexec
 Requires(pre): /usr/sbin/useradd
 Requires(post): chkconfig
-Requires: apr >= 1.4.0, apr-util >= 1.4.0
+Requires: apr >= 1.4.0, apr-util >= 1.4.0, httpd-tools = %{version}-%{release}
 Provides: webserver
 Provides: mod_dav = %{version}-%{release}, httpd-suexec = %{version}-%{release}
 Provides: httpd-mmn = %{mmn}
